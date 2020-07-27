@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 PORT = int(os.environ.get("PORT", 5000))
-host = "127.0.0.5"
+host = "127.0.0.x"
 port = 2345
 
 @app.route("/site")
